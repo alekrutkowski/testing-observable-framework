@@ -14,7 +14,7 @@ toc: false
       title: "Your awesomeness over time 🚀",
       subtitle: "Up and to the right!",
       width,
-      y: {grid: true, label: "Awesomeness"},
+      y: {grid: true, label: "Awesomeness!"},
       marks: [
         Plot.ruleY([0]),
         Plot.lineY(aapl, {x: "Date", y: "Close", tip: true})
